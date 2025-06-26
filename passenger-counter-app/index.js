@@ -1,10 +1,6 @@
-// intialize the count as 0
-// listen for clicks on the increment button
-// increment the count variable when the button is clicked
-// change the count-el in the HTML to reflect the new count
-let count = 0
-function increment(){
-    document.getElementById("count-el").textContent=count
-    count += 1
+// Create a function (you decide the name) that logs out the number 42 to the console
+// Call/invoke the function
+function number(){
+    console.log(42)
 }
-increment()
+number()
