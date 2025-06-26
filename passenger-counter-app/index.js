@@ -1,10 +1,8 @@
-let count = 0
+// 1. Create two variables, myAge and humanDogRatio
+let myAge = 10
+let humanDogRatio = 5
+// 2. Multiply the two together and store the result in myDogAge
+let myDogAge = myAge * humanDogRatio
+// 3. Log myDogAge to the console
+console.log(myDogAge)
 
-console.log(count)
-
-
-// 1. Create a variable, myAge, and set its value to your age
-let myAge = 20
-
-// 2. Log the myAge variable to the console
-console.log(myAge)
