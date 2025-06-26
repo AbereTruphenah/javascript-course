@@ -1,9 +1,4 @@
-// Create two variables, name and greeting. The name variable should store your name,
-// and the greeting should store e.g. "Hi, my name is "
-let name = "Truphena"
-let greeting = "Hi, my name is "
-
-// Create a third variable, myGreeting, that contatenates the two strings
-// Log myGreeting to the console
-let myGreeting = greeting + name
-console.log(myGreeting)
+console.log(4 + 5) // 9
+console.log("2" + "4") // 24
+console.log("5" + 1) // 51
+console.log(100 + "100") // 100100
