@@ -1,10 +1,12 @@
-let lap1 = 34
-let lap2 = 33
-let lap3 = 36
+let lapsCompleted = 0
 
-// Create a function that logs out the sum of all the lap times
-function lapTimes(){
-    let sum = lap1 + lap2 + lap3
-    console.log(sum)
+// Create a function that increments the lapsCompleted variable with one
+// Run it three times
+function incrementLaps(){
+    lapsCompleted += 1
+
 }
-lapTimes()
+incrementLaps()
+incrementLaps()
+incrementLaps()
+console.log(lapsCompleted)
