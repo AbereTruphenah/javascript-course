@@ -20,6 +20,8 @@ function save(){
     saveEl.textContent += countStr
     // NB: Make sure to not delete the existing content of the paragraph
     console.log(count)
+    countEl.textContent = 0
+    count = 0
 }
 save()
 
