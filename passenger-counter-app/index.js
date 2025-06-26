@@ -1,4 +1,10 @@
-console.log(4 + 5) // 9
-console.log("2" + "4") // 24
-console.log("5" + 1) // 51
-console.log(100 + "100") // 100100
+// Grab the welcome-el paragraph and store it in a variable called welcomeEl
+let welcomeEl = document.getElementById("welcome-el")
+
+// Create two variables (name & greeting) that contains your name
+// and the greeting we want to render on the page
+let name = "Truphena"
+let greeting = "Hello "
+
+// Render the welcome message using welcomeEl.innerText
+welcomeEl.innerText = greeting + name
