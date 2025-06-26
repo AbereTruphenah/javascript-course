@@ -1,21 +1,9 @@
-// intialize the count as 0
-// listen for clicks on the increment button
-// increment the count variable when the button is clicked
-// change the count-el in the HTML to reflect the new count
-let countEl = document.getElementById("count-el")
+let username = "per"
 
-console.log(countEl)
+// Create a variable, message, that stores the string: "You have three new notifications"
+let message = "You have three new notifications"
+console.log(message + ", " + username + "!")
 
-let count = 0
-
-function increment() {
-    count = count + 1
-    countEl.innerText = count
-}
-
-// 1. Create a function, save(), which logs out the count when it's called
-function save(){
-    console.log(count)
-}
-save()
-
+// Create a variable, messageToUser, that contains the message we have logged
+let messageToUser = message + ", " + username + "!"
+console.log(messageToUser)
