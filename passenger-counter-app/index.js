@@ -1,14 +1,10 @@
-// Create a variable, bonusPoints. Initialize it as 50. Increase it to 100.
-// Decrease it down to 25, and then finally increase it to 70
-// Console.log the value after each step
-let bonusPoints = 50
-console.log(bonusPoints)
-
-bonusPoints = bonusPoints + 50
-console.log(bonusPoints)
-
-bonusPoints = bonusPoints - 75
-console.log(bonusPoints)
-
-bonusPoints = bonusPoints + 45
-console.log(bonusPoints)
+// intialize the count as 0
+// listen for clicks on the increment button
+// increment the count variable when the button is clicked
+// change the count-el in the HTML to reflect the new count
+let count = 0
+function increment(){
+    document.getElementById("count-el").textContent=count
+    count += 1
+}
+increment()
